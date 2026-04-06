@@ -14,12 +14,12 @@
 
 // 3. 전체 가격 합 구하기 (reduce)
 
-const products = [
-    { name: "pen", price: 1000, category: "stationery" },
-    { name: "notebook", price: 3000, category: "stationery" },
-    { name: "mouse", price: 20000, category: "device" },
-    { name: "keyboard", price: 30000, category: "device" }
-  ];
+// const products = [
+//     { name: "pen", price: 1000, category: "stationery" },
+//     { name: "notebook", price: 3000, category: "stationery" },
+//     { name: "mouse", price: 20000, category: "device" },
+//     { name: "keyboard", price: 30000, category: "device" }
+//   ];
 
-const result = products.reduce((acc, curr) => acc + curr.price, 0);
-console.log(`3. 전체 가격 합: ${result}원`);
+// const result = products.reduce((acc, num) => acc + num.price, 0);
+// console.log(`${result}원`);
